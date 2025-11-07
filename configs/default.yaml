@@ -1,0 +1,17 @@
+paths:
+  data: "data_phone/raw"
+  gt_csv: "data_phone/gt/measurements.csv"
+  overlays: "results/overlays"
+  csv_out: "results/csv"
+
+detect:
+  weights: "yolov11s.pt" # Ultralytics will auto-download if not present
+  classes: null
+  conf: 0.15
+  iou: 0.45
+  device: "cpu"
+  save_overlays: true
+
+eval:
+  max_frames: null # or a number, e.g., 300
+  frame_stride: 1
