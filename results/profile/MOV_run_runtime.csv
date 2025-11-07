@@ -1,0 +1,6 @@
+stage,seconds,ms_per_frame,fps,peak_rss_mb,peak_gpu_mem_mb,peak_gpu_util_pct,frames,device
+detect,42.331,46.263,21.615,406.4,201.0,40.0,915,cuda
+mono_depth,353.542,386.385,2.588,406.0,1015.0,89.0,915,cuda
+scale_apply,22.276,24.346,41.075,17.5,0.0,0.0,915,cuda
+lift3d,27.742,30.319,32.983,17.5,0.0,0.0,915,cuda
+evaluate,5.197,5.68,176.063,34.8,0.0,0.0,915,cuda
