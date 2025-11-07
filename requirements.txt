@@ -1,0 +1,12 @@
+ultralytics==8.3.50
+opencv-python
+numpy
+pandas
+matplotlib
+tqdm
+pillow
+pyyaml
+exifread
+timm
+torch
+torchvision
